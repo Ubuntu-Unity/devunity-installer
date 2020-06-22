@@ -3,11 +3,15 @@
 This is the installer for Devunity.
 
 ## How to use
-To execute it, run the following command:
+To execute it, run the following commands:
 
-```./devunity-inst <PATH-TO-FILE>```
+```
+wget https://raw.githubusercontent.com/Ubuntu-Unity/devunity-installer/master/devunity-inst
+chmod +x devunity-inst
+./devunity-inst <PATH-TO-DEVUNITY-BINARY>
+```
 
-where `<PATH-TO-FILE>` is the path to the downloaded executable of Devunity from https://github.com/Ubuntu-Unity/devunity/releases/.
+where `<PATH-TO-DEVUNITY-BINARY>` is the path to the downloaded executable of Devunity from https://github.com/Ubuntu-Unity/devunity/releases/.
 
 ## Where is the source code of Devunity?
 Please check https://github.com/Ubuntu-Unitydevunity/.
