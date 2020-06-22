@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Licensed under the BSD 3-Clause License.
+
+function inst() {
+    if [ ! -f "$1" ]; then
+        echo "Binary not found. Exiting"
+        exit -1
+    fi
+    install -D "$1" "/usr/local/bin"
+}
+
+if [ "$#" -ne 1 ]; then
+    echo "Requires exactly 1 argument. Exiting"
+    exit -1
+fi
+
+if [ "$EUID" -ne 0 ]; then
+    echo "Requires root. Exiting"
+    exit -1
+fi
+
+inst $1
