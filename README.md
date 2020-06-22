@@ -11,7 +11,7 @@ chmod +x devunity-inst
 ./devunity-inst <PATH-TO-DEVUNITY-BINARY>
 ```
 
-where `<PATH-TO-DEVUNITY-BINARY>` is the path to the downloaded executable of Devunity from https://github.com/Ubuntu-Unity/devunity/releases/.
+where `<PATH-TO-DEVUNITY-BINARY>` is the path to the downloaded binary of Devunity from https://github.com/Ubuntu-Unity/devunity/releases/.
 
 ## Where is the source code of Devunity?
 Please check https://github.com/Ubuntu-Unitydevunity/.
